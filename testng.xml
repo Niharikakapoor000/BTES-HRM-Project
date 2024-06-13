@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RealProjectBTESHRM.RealProjectCode.AdminDropTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.SearchForTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.SearchBYTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.InvalidUsernameTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.AdminQualfication"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.AddOptionTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.ResetOptionTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.BackOptionTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.LoginPageTest"/>
+      <class name="RealProjectBTESHRM.RealProjectCode.InvalidPasswordTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
